@@ -1,0 +1,570 @@
+    html,body{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+    }
+
+    li{
+        display: flex;
+        padding: 2% 5px 15px 20px ;
+    }
+    .right {
+        display: flex;
+        margin-left: auto; 
+        padding: 1.5% 5px 15px 20px;
+    }
+    
+    .section {
+        background-image: url("./Assets/top-section_2180x750.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-text {
+        color: white;
+        text-align: center;
+    }
+    
+    .video-text {
+        color: white;
+        margin-top: 1rem;
+    }
+    
+
+            .help {
+                background-color: white;
+                width: 100%; 
+                height: 100vh; 
+                display: flex;
+                justify-content:space-around;
+                align-items: center;
+                position: relative; 
+            }
+            .text {
+                display:flex;
+                margin-bottom: 37rem;
+                position: absolute; 
+                text-align: center;
+                justify-content: center;
+                
+            }
+            .textdown{
+                display:flex;
+                margin-top:37rem;
+                position: absolute;
+                text-align: center; 
+                color: grey;
+                justify-content: center;
+            }
+                
+
+            .left{
+                width: 20rem;
+                height: 20rem;
+                margin-top: -8%;
+                background-image:url(./Assets/main-img_1078x816.png);
+                background-size:contain; 
+                background-position: center;
+                background-repeat: no-repeat; 
+
+            
+
+            }
+            .middle{
+
+                width: 20rem;
+                height: 20rem;
+                margin-top: -8%;
+                background-image: url(./Assets/video-emma_280x187.png);
+                background-size:contain;
+                background-position: center;
+                background-repeat: no-repeat; 
+
+            }
+            .right-div{
+                width: 20rem;
+                height:20rem;
+                margin-top: -8%;
+                background-image: url(./Assets/video-gatesjobs_560x374.png);
+                background-size:contain; 
+                background-position: center;
+                background-repeat: no-repeat; 
+            }
+            .main{
+                display: flex;
+                position:relative;
+                margin-top: 20rem;
+                align-items: center;
+
+
+            }
+            .above{
+                display: flex;
+                position: absolute;
+                margin-top: -2rem;
+                text-align: left;
+            }
+            .main-end{
+                display: flex;
+                align-items: center;
+                background-color:#D3D3D3;
+                position: absolute;
+                height: 3rem;
+                width: 20rem;
+                margin-top: 5rem;
+                border-radius: 4.5px;
+            }
+            .main-end,p{
+                text-align: center;
+                margin-right: 10px;
+
+            }
+            .f-help {
+                background-color: white;
+                width: 100%; 
+                height: 100vh; 
+                display: flex;
+                justify-content:space-around;
+                align-items: center;
+                position: relative; 
+
+
+            }
+            .f-text {
+                display:flex;
+                margin-bottom: 37rem;
+                position: absolute; 
+                text-align: center;
+                justify-content: center;
+                
+            }
+            .f-textdown{
+                display:flex;
+                margin-top:37rem;
+                position: absolute;
+                text-align: center; 
+                color: grey;
+                justify-content: center;
+            }
+                
+
+            .f-left{
+                width: 20rem;
+                height: 20rem;
+                margin-top: -8%;
+                background-image:url(./Assets/index-sharing_300x120.png);
+                background-size:contain; 
+                background-position: center;
+                background-repeat: no-repeat; 
+
+            
+
+            }
+            .f-middle{
+
+                width: 20rem;
+                height: 20rem;
+                margin-top: -8%;
+                background-image: url(./Assets/index-embeds_300x120.png);
+                background-size:contain;
+                background-position: center;
+                background-repeat: no-repeat; 
+
+            }
+            .f-right-div{
+                width: 20rem;
+                height:20rem;
+                margin-top: -8%;
+                background-image: url(./Assets/index-tagging_300x120.png);
+                background-size:contain; 
+                background-position: center;
+                background-repeat: no-repeat; 
+            }
+            .f-main{
+                display: flex;
+                position:relative;
+                margin-top: 20rem;
+                align-items: center;
+
+
+            }
+            .f-above {
+                display: flex;
+                position: relative;
+                margin-top: -2rem;
+                justify-content: center; 
+                width: 100%; 
+            }
+            .f-above1 {
+                display: flex;
+                position: absolute;
+                margin-top: 7rem;
+                text-align: center;
+                justify-content: center; 
+                width: 100%; 
+            }
+            .f-main-end{
+                display: flex;
+                align-items: center;
+                background-color:#D3D3D3;
+                position: absolute;
+                height: 3rem;
+                width: 20rem;
+                margin-top: 5rem;
+                border-radius: 4.5px;
+            }
+            .B-help {
+                background-color: white;
+                width: 100%; 
+                height: 100vh; 
+                display: flex;
+                justify-content:space-around;
+                align-items: center;
+                position: relative; 
+
+
+            }
+
+            .B-text {
+                display:flex;
+                margin-bottom: 37rem;
+                position: absolute; 
+                text-align: center;
+                justify-content: center;
+                
+            }
+            .personal {
+                display: grid;
+                position: absolute;
+                margin-bottom: 16rem;
+                height: 10rem;
+                width: 40rem;
+            }
+            
+            .improved{
+                display: grid;
+                position: absolute;
+                margin-top: 7rem;
+                height: 10rem;
+                width: 40rem;
+                
+            }
+            .actionable{
+                display: grid;
+                position: absolute;
+                margin-top: 30rem;
+                height: 10rem;
+                width: 40rem;
+
+            }
+            .img{
+                display: flex;
+                background-image: url(./Assets/index-benefit-personal_166x166.png);   
+                background-size:contain; 
+                background-position: left;
+                background-repeat: no-repeat; 
+
+            }
+            .img1{
+                display: flex;
+                background-image: url(./Assets/index-benefit-engagement_166x166.png);   
+                background-size:contain; 
+                background-position: left;
+                background-repeat: no-repeat; 
+
+            }
+            .img2{
+                display: flex;
+                background-image: url(./Assets/index-benefit-analytics_166x166.png);   
+                background-size:contain; 
+                background-position: left;
+                background-repeat: no-repeat; 
+
+            }
+            .txt{   
+
+                position: absolute;
+                text-align: center;
+                margin-left:12rem ;
+                        }
+
+            .txt-txt {
+                position: absolute;
+                text-align: left;
+                margin-top: 2.5rem;
+                margin-left: 12rem;
+                text-indent: 0;
+                }
+            .collection-m{
+                top: 13rem;
+                margin-right: 43rem;
+                position: absolute;
+                display: flex;
+                height: 16rem;
+                width: 35rem;
+                background-image: url(./Assets/collection-startup_460x184.png);
+                background-size:contain; 
+                background-position: left;
+                background-repeat: no-repeat; 
+            }
+            .collection-s{
+                top: 13rem;
+                margin-left: 43rem;
+                position: absolute;
+                display: flex;
+                height: 16rem;
+                width: 35rem;
+                background-image: url(./Assets/collection-ml_922x368.png);
+                background-size:contain; 
+                background-position: left;
+                background-repeat: no-repeat; 
+            }
+
+            .C-textdown{
+                display: flex;
+                margin-top:35rem;
+                color: grey;
+                text-align: center;
+                align-items: center;
+            }
+
+            .C-help {
+                background-color: white;
+                width: 100%; 
+                height: 85vh; 
+                display: flex;
+                justify-content:space-around;
+                position: relative; 
+
+
+            }
+            .C-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                position: absolute; 
+                margin-bottom: 37rem; 
+            }
+            .W-help {
+                background-color:#FFF5EE;
+                width: 100%; 
+                height: 80vh; 
+                display: flex;
+                justify-content:space-around;
+                position: relative; 
+
+
+            }
+
+            .i1{
+
+                height: 4rem;
+                width: 9rem;
+                position: absolute;
+                background-image: url(./Assets/partner-yc_430x188.png);
+                background-size:contain; 
+                margin: 5rem 70rem 20rem 2rem;
+                background-repeat: no-repeat; 
+                
+            }
+            .i2{
+
+                height: 4rem;
+                width: 9rem;
+                position: absolute;
+                background-image: url(./Assets/partner-blackbox_215x94.png);
+                background-size:contain; 
+                margin: 5rem 0rem 20rem 2rem;
+                background-repeat: no-repeat;  
+            }
+            .i3{
+                height: 4rem; 
+                width: 9rem; 
+                position: absolute;
+                background-image: url(./Assets/partner-ucf_430x188.png); 
+                background-size: contain; 
+                margin: 5rem 0rem 20rem 70rem;
+                background-repeat: no-repeat; 
+            }
+            .i4{
+                height: 4rem; 
+                width: 9rem; 
+                position: absolute;
+                background-image: url(./Assets/partner-500startups_430x188.png); 
+                background-size: contain; 
+                margin: 27rem 0rem 20rem 70rem;
+                background-repeat: no-repeat; 
+            }
+            .i5{
+                height: 4rem; 
+                width: 9rem; 
+                position: absolute;
+                background-image: url(./Assets/partner-cv_430x188.png); 
+                background-size: contain; 
+                margin: 27rem 0rem 20rem 2rem;
+        
+                background-repeat: no-repeat; 
+            }
+            .i6{
+                height: 4rem; 
+                width: 9rem; 
+                position: absolute;
+                background-image: url(./Assets/partner-bothsides_430x188.png); 
+                background-size: contain; 
+                margin: 27rem 70rem 20rem 2rem;
+                background-repeat: no-repeat; 
+            }
+            .W-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                position: relative; 
+            }
+            .W-text h1 {
+                display: flex;
+                margin-top: 4rem;
+            }
+            .W-text p {
+                display: flex;
+                margin-top: 27rem;
+                text-align: center;
+                color: #666;
+                        }
+                #form{
+                    position: relative;
+                }
+                #query {
+                    position: absolute;
+                    margin-bottom: 8rem;
+                    height: 3rem;
+                    width: 20rem;
+                    }
+
+                .BIG {
+                    background-color:blue; 
+                    color: #ffffff; 
+                    height: 3rem;
+                    margin-left: 20rem;
+                }
+                .S-help {
+                    background-color:white;
+                    width: 100%; 
+                    height: 60vh; 
+                    display: flex;
+                    justify-content:space-around;
+                    position: relative; 
+
+
+                }
+                .S-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    position: absolute; 
+                }
+                .S-text h1{
+                    margin-top: 10rem;
+                }
+
+                .l1{
+                    height: 4rem; 
+                    width: 9rem; 
+                    position: absolute;
+                    background-image: url(./Assets/platform-youtube_115x50.png); 
+                    background-size: contain; 
+                    margin: 50rem 10rem 25rem 55rem;
+                    background-repeat: no-repeat; 
+                }
+                .l2{
+                    height: 4rem; 
+                    width: 9rem; 
+                    position: absolute;
+                    background-image: url(./Assets/platform-vimeo_115x50.png); 
+                    background-size: contain; 
+                    margin: 50rem 0rem 25rem 13rem;
+            
+                    background-repeat: no-repeat; 
+                }
+                .l3{
+                    height: 4rem; 
+                    width: 9rem; 
+                    position: absolute;
+                    background-image: url(./Assets/platform-dailymotion_115x50.png); 
+                    background-size: contain; 
+                    margin: 50rem 60rem 25rem 20rem;
+                    background-repeat: no-repeat; 
+                }
+                .l4{
+                    height: 4rem; 
+                    width: 9rem; 
+                    position: absolute;
+                    background-image: url(./Assets/platform-html5_230x100.png); 
+                    background-size: contain; 
+                    margin: 50rem 33rem 25rem 20rem;
+                    background-repeat: no-repeat; 
+                }
+                .L-help {
+                    background-color:#FFF5EE;
+                    width: 100%; 
+                    height: 60vh; 
+                    display: flex;
+                    justify-content:space-around;
+                    position: relative; 
+
+
+                }
+                .L-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    position: absolute; 
+                }
+                .L-text h1{
+                    margin-top: 8rem;
+                }
+                .grey {
+                    background-color: #3B3B3B;
+                    padding: 17px;
+                    text-align: center;
+                }
+                
+                .black {
+                    background-color: black;
+                    padding: 20px;
+                    text-align: center;
+                }
+                
+                .footer-content {
+                    margin: 0 auto;
+                    max-width: 800px;
+                }
+                
+                .footer-content p {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 14px;
+                    color: #666;
+                }
+                
